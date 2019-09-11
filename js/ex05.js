@@ -1,0 +1,40 @@
+let b;
+let a;
+
+function affiche() {
+    b = 2;
+    a=b++;
+    alert('b = 2 -> a=b++ -> a = '+a+' et b = '+b);
+    b = 2;
+    a=++b;
+    alert('b = 2 -> a=++b -> a = '+a+' et b = '+b);
+    b = 2;
+    a=b--;
+    alert('b = 2 -> a=b-- -> a = '+a+' et b = '+b);
+    b = 2;
+    a=--b;
+    alert('b = 2 -> a=--b -> a = '+a+' et b = '+b);
+    b = 2;
+    a+=b++;
+    alert('b = 2 -> a+=b++ -> a = '+a+' et b = '+b);
+    a = 1;
+    b = 2;  
+    a+=++b;
+    alert('a = 1 et b = 2 -> a+=++b -> a = '+a+' et b = '+b);
+    a = 1;
+    b = 2;  
+    a-=b++;
+    alert('a = 1 et b = 2 -> a-=b++ -> a = '+a+' et b = '+b);
+    a = 1;
+    b = 2;  
+    a-=++b;
+    alert('a = 1 et b = 2 -> a-=++b -> a = '+a+' et b = '+b);
+    a = 1;
+    b = 2;  
+    a+=b--;
+    alert('a = 1 et b = 2 -> a+=b-- -> a = '+a+' et b = '+b);
+    a = 1;
+    b = 2;  
+    a+=--b;
+    alert('a = 1 et b = 2 -> a+=--b -> a = '+a+' et b = '+b);
+}
